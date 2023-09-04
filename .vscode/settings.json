@@ -1,6 +1,9 @@
 {
     "cSpell.words": [
-        "HTMX"
+        "aarch",
+        "HTMX",
+        "ipykernel",
+        "numpy"
     ],
     "typescript.tsdk": "node_modules\\typescript\\lib"
 }
