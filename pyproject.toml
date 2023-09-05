@@ -3,7 +3,7 @@ name = "figure"
 description = "Publication-quality figure"
 dynamic = ["version"]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.9"
 license = { file = "LICENSE" }
 keywords = ["figure", "htmx"]
 authors = [{ name = "Atlanswer", email = "atlanswer@gmail.com" }]
@@ -12,10 +12,18 @@ classifiers = [
     "Development Status :: 1 - Planning",
     "License :: OSI Approved :: MIT License",
 ]
-dependencies = ["numpy", "pandas", "matplotlib", "loguru"]
+dependencies = [
+    "python~=3.9",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "loguru",
+    "fastapi",
+    "mangum",
+]
 
 [project.optional-dependencies]
-dev = ["hatch", "conda-lock", "black", "ipython", "ipykernel", "ruff"]
+dev = ["conda-lock", "black", "ipython", "ipykernel", "ruff"]
 
 [project.urls]
 Repository = "https://github.com/atlanswer/figure-htmx"
@@ -27,13 +35,27 @@ build-backend = "hatching.build"
 [tool.hatch.version]
 path = "figure/__init__.py"
 
+[tool.hatch.env]
+requires = ["hatch-conda"]
+
+[tool.hatch.envs.default]
+type = "conda"
+command = "mamba"
+conda-forge = true
+features = ["dev"]
+skip-install = true
+
 [tool.hatch.envs.default.scripts]
+lint = "ruff check ."
 format = "black ."
 
 [tool.conda-lock]
 channels = ["conda-forge"]
-platforms = ["win-64", "linux-aarch64"]
+platforms = ["win-64"]
 
 [tool.black]
 line-length = 80
-target-version = ["py311"]
+target-version = ["py311", "py39"]
+
+[tool.ruff]
+line-length = 80
