@@ -1,10 +1,12 @@
 {
-    "cSpell.words": [
-        "aarch",
-        "HTMX",
-        "ipykernel",
-        "numpy",
-        "uvicorn"
-    ],
-    "typescript.tsdk": "node_modules\\typescript\\lib"
+  "cSpell.words": [
+    "aarch",
+    "HTMX",
+    "ipykernel",
+    "numpy",
+    "pycache",
+    "pyright",
+    "uvicorn"
+  ],
+  "typescript.tsdk": "node_modules\\typescript\\lib"
 }

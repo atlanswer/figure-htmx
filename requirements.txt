@@ -1,7 +1,5 @@
-python~=3.9
 numpy
 pandas
 matplotlib
 loguru
 fastapi
-mangum

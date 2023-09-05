@@ -58,3 +58,7 @@ target-version = ["py311", "py39"]
 
 [tool.ruff]
 line-length = 80
+
+[tool.pyright]
+typeCheckingMode = "strict"
+reportShadowedImports = false
