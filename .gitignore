@@ -6,3 +6,4 @@ dist
 
 # python
 venv
+.ruff_cache

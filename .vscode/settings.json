@@ -3,7 +3,8 @@
         "aarch",
         "HTMX",
         "ipykernel",
-        "numpy"
+        "numpy",
+        "uvicorn"
     ],
     "typescript.tsdk": "node_modules\\typescript\\lib"
 }

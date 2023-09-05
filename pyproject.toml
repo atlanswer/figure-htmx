@@ -19,11 +19,10 @@ dependencies = [
     "matplotlib",
     "loguru",
     "fastapi",
-    "mangum",
 ]
 
 [project.optional-dependencies]
-dev = ["conda-lock", "black", "ipython", "ipykernel", "ruff"]
+dev = ["conda-lock", "black", "ipython", "ipykernel", "ruff", "uvicorn"]
 
 [project.urls]
 Repository = "https://github.com/atlanswer/figure-htmx"
