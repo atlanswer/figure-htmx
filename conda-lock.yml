@@ -15,7 +15,7 @@
 version: 1
 metadata:
   content_hash:
-    win-64: b95499595bbcb62735d7e540c1e4933ca198de8e79ac1a8c4cd344adc7e43f18
+    win-64: 2f1b696b1f18237b02c9841bd1f6077b08765a29bc8cc9f90fd10167f3563cae
   channels:
   - url: conda-forge
     used_env_vars: []
@@ -860,8 +860,8 @@ package:
   hash:
     md5: 8f408f9aaa6aa46200f51502949a658b
     sha256: f08234aaf653dba322cd75d5160c981c097ac35bd9a0f37cbbf73bf088fb74dc
-  category: dev
-  optional: true
+  category: main
+  optional: false
 - name: mdurl
   version: 0.1.0
   manager: conda
@@ -1752,8 +1752,8 @@ package:
   hash:
     md5: c8490ed5c70966d232fdd389d0dbed37
     sha256: b045faba7130ab263db6a8fdc96b1a3de5fcf85c4a607c5f11a49e76851500b5
-  category: dev
-  optional: true
+  category: main
+  optional: false
 - name: lcms2
   version: '2.15'
   manager: conda
@@ -2609,7 +2609,7 @@ package:
   category: dev
   optional: true
 - name: ipykernel
-  version: 6.25.1
+  version: 6.25.2
   manager: conda
   platform: win-64
   dependencies:
@@ -2627,10 +2627,10 @@ package:
     pyzmq: '>=20'
     tornado: '>=6.1'
     traitlets: '>=5.4.0'
-  url: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/noarch/ipykernel-6.25.1-pyh6817e22_0.conda
+  url: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/noarch/ipykernel-6.25.2-pyh60829e3_0.conda
   hash:
-    md5: c9f47538470a03f065d6b1e9ad4607cb
-    sha256: e694d49017198b4fdd2dbb52971f948318c80aa1f3dbd5c8baa121862303f67f
+    md5: 387f16a39a2e57bff9de9bc0216baa09
+    sha256: 8531e04e585db4fb95ba5152e7f6af0fa9be0b3e68a8c9e335e4a3585222db2c
   category: dev
   optional: true
 - name: pandas

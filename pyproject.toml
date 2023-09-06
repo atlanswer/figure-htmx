@@ -19,6 +19,8 @@ dependencies = [
     "matplotlib",
     "loguru",
     "fastapi",
+    "Jinja2",
+    "MarkupSafe",
 ]
 
 [project.optional-dependencies]
@@ -58,7 +60,9 @@ target-version = ["py311", "py39"]
 
 [tool.ruff]
 line-length = 80
+target-version = "py39"
 
 [tool.pyright]
 typeCheckingMode = "strict"
 reportShadowedImports = false
+reportUnknownMemberType = false

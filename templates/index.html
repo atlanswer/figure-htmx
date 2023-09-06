@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Figure with HTMX</title>
+    <link
+      href="{{ url_for('Public', path='/tailwind-reset.css') }}"
+      rel="stylesheet"
+    />
+    <link href="{{ url_for('Public', path='/global.css') }}" rel="stylesheet" />
+    <script src="{{ url_for('Public', path='/htmx.js') }}"></script>
+    <script src="{{ url_for('Public', path='/uno.global.js') }}"></script>
+  </head>
+  <body>
+    <div class="text-red text-xl font-bold">Hi HTMX!</div>
+  </body>
+</html>
