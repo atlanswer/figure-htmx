@@ -6,6 +6,7 @@
     "numpy",
     "pycache",
     "pyright",
+    "starlette",
     "unocss",
     "uvicorn"
   ],
