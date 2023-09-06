@@ -6,6 +6,7 @@
     "numpy",
     "pycache",
     "pyright",
+    "unocss",
     "uvicorn"
   ],
   "typescript.tsdk": "node_modules\\typescript\\lib"

@@ -8,8 +8,10 @@
   "license": "MIT",
   "devDependencies": {
     "@tsconfig/node20": "~20.1.2",
-    "@types/node": "~20.5.7",
+    "@types/node": "~20.5.9",
+    "@unocss/reset": "~0.55.7",
     "htmx.org": "~1.9.4",
     "typescript": "~5.2.2"
-  }
+  },
+  "packageManager": "pnpm@8.7.4"
 }
