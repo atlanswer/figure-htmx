@@ -14,12 +14,6 @@ importers:
       '@types/node':
         specifier: ~20.5.9
         version: 20.5.9
-      '@unocss/reset':
-        specifier: ~0.55.7
-        version: 0.55.7
-      htmx.org:
-        specifier: ~1.9.4
-        version: 1.9.4
       typescript:
         specifier: ~5.2.2
         version: 5.2.2
@@ -32,14 +26,6 @@ packages:
 
   /@types/node@20.5.9:
     resolution: {integrity: sha512-PcGNd//40kHAS3sTlzKB9C9XL4K0sTup8nbG5lC14kzEteTNuAFh9u5nA0o5TWnSG2r/JNPRXFVcHJIIeRlmqQ==}
-    dev: true
-
-  /@unocss/reset@0.55.7:
-    resolution: {integrity: sha512-yvmLhxqUNgf6wue7IvhV/FdrQW9H9LF1Bmmhwwaiz2aV0E74aN4pbuYPZwNq3YafsQvNQ0UdtuXjddY4QMRCPw==}
-    dev: true
-
-  /htmx.org@1.9.4:
-    resolution: {integrity: sha512-GB9afD20gYw708z2PjClwlDgNtD1p4RYQtlDKak/JyMhrgiSL8sPfGqdkNmSLrhuCFekWw9mLpRNK/+Xn9aayA==}
     dev: true
 
   /typescript@5.2.2:
