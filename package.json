@@ -1,6 +1,6 @@
 {
   "name": "figure-htmx",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Figure but with HTMX",
   "homepage": "https://figure-htmx.atlanswer.com",
   "private": true,

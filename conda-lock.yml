@@ -656,7 +656,7 @@ package:
   category: main
   optional: false
 - name: debugpy
-  version: 1.6.8
+  version: 1.7.0
   manager: conda
   platform: win-64
   dependencies:
@@ -665,10 +665,10 @@ package:
     ucrt: '>=10.0.20348.0'
     vc: '>=14.2,<15'
     vc14_runtime: '>=14.29.30139'
-  url: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/win-64/debugpy-1.6.8-py39h99910a6_0.conda
+  url: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/win-64/debugpy-1.7.0-py39h99910a6_0.conda
   hash:
-    md5: fd76a1d5c709360bd5cbb461a7537dd9
-    sha256: 1e02b69978851411535053937d8f6246a198a53edeb09c1229874004e60ac561
+    md5: 6546c1de01bfb07618c10a4929ac5d21
+    sha256: cf3fcc09216fcf565ff961a0be216f2cbe447902cd04b3deb6e3cf2432d9a247
   category: dev
   optional: true
 - name: decorator
@@ -1147,15 +1147,15 @@ package:
   category: main
   optional: false
 - name: pytz
-  version: '2023.3'
+  version: 2023.3.post1
   manager: conda
   platform: win-64
   dependencies:
     python: '>=3.6'
-  url: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/noarch/pytz-2023.3-pyhd8ed1ab_0.conda
+  url: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/noarch/pytz-2023.3.post1-pyhd8ed1ab_0.conda
   hash:
-    md5: d3076b483092a435832603243567bc31
-    sha256: e4999484f21763ca4b8f92c95b22cb6d1edc1b61d0a2bb073ee2bd11f39401b9
+    md5: c93346b446cd08c169d843ae5fc0da97
+    sha256: 6b680e63d69aaf087cd43ca765a23838723ef59b0a328799e6363eb13f52c49e
   category: main
   optional: false
 - name: pywin32
@@ -1521,16 +1521,16 @@ package:
   category: main
   optional: false
 - name: asttokens
-  version: 2.2.1
+  version: 2.4.0
   manager: conda
   platform: win-64
   dependencies:
     python: '>=3.5'
-    six: ''
-  url: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/noarch/asttokens-2.2.1-pyhd8ed1ab_0.conda
+    six: '>=1.12.0'
+  url: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/noarch/asttokens-2.4.0-pyhd8ed1ab_0.conda
   hash:
-    md5: bf7f54dd0f25c3f06ecb82a07341841a
-    sha256: 7ed530efddd47a96c11197906b4008405b90e3bc2f4e0df722a36e0e6103fd9c
+    md5: 056f04e51dd63337e8d7c425c18c86f1
+    sha256: e7e91e3fa26abe502be690371893f205d87a82c225668ea6e9a1ba26870388ee
   category: dev
   optional: true
 - name: backports.functools_lru_cache
@@ -2010,17 +2010,17 @@ package:
   category: main
   optional: false
 - name: gitpython
-  version: 3.1.34
+  version: 3.1.35
   manager: conda
   platform: win-64
   dependencies:
     gitdb: '>=4.0.1,<5'
     python: '>=3.7'
     typing_extensions: '>=3.7.4.3'
-  url: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/noarch/gitpython-3.1.34-pyhd8ed1ab_0.conda
+  url: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/noarch/gitpython-3.1.35-pyhd8ed1ab_0.conda
   hash:
-    md5: 3c3d8c89c2fe64dc925ca492d67fab1a
-    sha256: e70b7c7c072f099af8ab004feb099f72e85f60fed2dc1e3dcedf166903ab9822
+    md5: e434463858a6060d5424d95fbd5fa2b8
+    sha256: da44aa5c32fe8c89309d468f5f057a2c30ce332cccf4118cfef9648a8f455339
   category: dev
   optional: true
 - name: hatchling
@@ -2325,10 +2325,10 @@ package:
   platform: win-64
   dependencies:
     mkl: 2022.1.0
-  url: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/win-64/libblas-3.9.0-17_win64_mkl.conda
+  url: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/win-64/libblas-3.9.0-18_win64_mkl.conda
   hash:
-    md5: 9e42ac6b256b96bfaa19f829c25940e8
-    sha256: 56c5394e80c429acfee53a075e3d1b6ccd8c294510084cd6a2a4b7d8cc80abfb
+    md5: b241da5b7a888f72bb3c3e82747334f4
+    sha256: 5aef8d69197108f3c320a5d4ad4d19ab9c809cdbbf731c7ab988c227de42d6b5
   category: main
   optional: false
 - name: prompt-toolkit
@@ -2453,10 +2453,10 @@ package:
   platform: win-64
   dependencies:
     libblas: 3.9.0
-  url: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/win-64/libcblas-3.9.0-17_win64_mkl.conda
+  url: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/win-64/libcblas-3.9.0-18_win64_mkl.conda
   hash:
-    md5: 768b2c3be666ecf9e62f939ea919f819
-    sha256: 5b9914c3b95d947a613a9b6d3c1c1515257a61e7838a1f2484927f0c9fe23063
+    md5: fb0b514194c14342a97dfe31a41d60fc
+    sha256: d5f60ed6508b3889a77caf5ff2b66203714e45ec4eea6e5cdb12fe6e8ef2bbdb
   category: main
   optional: false
 - name: liblapack
@@ -2465,10 +2465,10 @@ package:
   platform: win-64
   dependencies:
     libblas: 3.9.0
-  url: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/win-64/liblapack-3.9.0-17_win64_mkl.conda
+  url: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/win-64/liblapack-3.9.0-18_win64_mkl.conda
   hash:
-    md5: 278121fe8f0d65d496998aa290f36322
-    sha256: 68922a63d92a414af06b208136c9304be179c6fc911e8636430b0e15c0a9aa3b
+    md5: 82117ef735a916ace2df6f2de4df4824
+    sha256: f90d96695938659fad4dd47d92dbeebff4a3824979bfb1aac33c8287a83e9d23
   category: main
   optional: false
 - name: prompt_toolkit
