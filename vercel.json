@@ -3,5 +3,7 @@
   "trailingSlash": false,
   "rewrites": [{ "source": "/(.*)", "destination": "/api/main" }],
   "regions": ["hkg1"],
-  "buildCommand": ""
+  "framework": null,
+  "installCommand": null,
+  "buildCommand": null
 }
