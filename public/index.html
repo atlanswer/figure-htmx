@@ -28,17 +28,15 @@
     <script async defer src="js/uno.global.js"></script>
   </head>
   <body class="font-sans text-black antialiased dark:text-white">
-    <main class="h-8 min-h-screen">
-      <header
-        class="border-dark border-b bg-sky p-4"
-      >
+    <main class="flex min-h-screen flex-col">
+      <header class="border-dark bg-sky border-b p-4">
         <div class="mx-auto flex max-w-screen-md items-center gap-8">
           <span class="text-lg font-bold">Figure</span>
           <nav class="border-1 flex-grow">Nav</nav>
           <span class="">End</span>
         </div>
       </header>
-      <div class="h-full p-4" id="page-main">
+      <div class="flex-grow p-4" id="page-main">
         <div class="mx-auto max-w-screen-md">
           <div class="text-red text-xl font-bold">Hi HTMX!</div>
           <div _="on click call alert('You clicked me!')">Click Me!</div>
@@ -47,8 +45,15 @@
       </div>
     </main>
     <footer class="min-h-8 bg-emerald p-4">
-      <div class="mx-auto flex max-w-screen-md items-center gap-8">
-        <span class="">Made by @atlanswer</span>
+      <div
+        class="mx-auto flex max-w-screen-md items-center gap-x-8 gap-y-4 max-sm:flex-col"
+      >
+        <span class=""
+          >Made by
+          <a href="https://twitter.com/atlanswer" target="_blank">@atlanswer</a
+          >.</span
+        >
+        <span>Powered by HTMX and FastAPI.</span>
         <a href="https://github.com/atlanswer/figure-htmx" target="_blank"
           >GitHub</a
         >
