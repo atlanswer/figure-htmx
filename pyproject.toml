@@ -21,10 +21,20 @@ dependencies = [
     "fastapi",
     "Jinja2",
     "MarkupSafe",
+    "pydantic",
+    "pydantic-settings",
 ]
 
 [project.optional-dependencies]
-dev = ["conda-lock", "black", "ipython", "ipykernel", "ruff", "uvicorn"]
+dev = [
+    "conda-lock",
+    "black",
+    "ipython",
+    "ipykernel",
+    "ruff",
+    "uvicorn",
+    "watchfiles",
+]
 
 [project.urls]
 Repository = "https://github.com/atlanswer/figure-htmx"
@@ -34,7 +44,7 @@ requires = ["hatching"]
 build-backend = "hatching.build"
 
 [tool.hatch.version]
-path = "figure/__init__.py"
+path = "api/main.py"
 
 [tool.hatch.env]
 requires = ["hatch-conda"]

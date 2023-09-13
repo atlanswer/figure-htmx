@@ -1,11 +1,11 @@
-from fastapi.exceptions import StarletteHTTPException
-from typing import Awaitable, Callable
 import typing
+from typing import Awaitable, Callable
 
 from fastapi import Request, Response
+from fastapi.exceptions import StarletteHTTPException
 from fastapi.staticfiles import StaticFiles
-from starlette.types import Message
 from main import app
+from starlette.types import Message
 
 app_static = StaticFiles(directory="public", html=True)
 

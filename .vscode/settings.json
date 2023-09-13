@@ -5,6 +5,7 @@
     "ipykernel",
     "numpy",
     "pycache",
+    "pydantic",
     "pyright",
     "starlette",
     "unocss",

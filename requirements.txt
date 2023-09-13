@@ -5,3 +5,5 @@ loguru
 fastapi
 Jinja2
 MarkupSafe
+pydantic
+pydantic-settings
